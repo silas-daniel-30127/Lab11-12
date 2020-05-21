@@ -1,5 +1,7 @@
 package aut.utcluj.isp.ex4;
 
+import java.util.Objects;
+
 /**
  * @author stefan
  */
@@ -10,7 +12,7 @@ public class AirplaneTicket {
     private String customerId;
     private TicketStatus status;
 
-    public AirplaneTicket(String id, Double price, String destination)  {
+    public AirplaneTicket(String id, Double price, String destination) {
         this.id = id;
         this.price = price;
         this.destination = destination;
@@ -40,6 +42,33 @@ public class AirplaneTicket {
 
     public TicketStatus getStatus() {
         return status;
+    }
+
+    @Override
+    public String toString() {
+        return "AirplaneTicket{" +
+                "id='" + id + '\'' +
+                ", destination='" + destination + '\'' +
+                ", customerId='" + customerId + '\'' +
+                ", status=" + status +
+                '}' + '\n';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AirplaneTicket ticket = (AirplaneTicket) o;
+        return Objects.equals(id, ticket.id) &&
+                Objects.equals(price, ticket.price) &&
+                Objects.equals(destination, ticket.destination) &&
+                Objects.equals(customerId, ticket.customerId) &&
+                status == ticket.status;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, price, destination, customerId, status);
     }
 
     public void setStatus(TicketStatus status) {
