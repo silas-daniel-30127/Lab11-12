@@ -10,8 +10,16 @@ public class AirplaneTicket {
     private String customerId;
     private TicketStatus status;
 
-    public AirplaneTicket(String id, Double price, String destination) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    public AirplaneTicket(String id, Double price, String destination)  {
+        this.id = id;
+        this.price = price;
+        this.destination = destination;
+        //throw new UnsupportedOperationException("Not supported yet.");
+
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
     }
 
     public String getId() {
