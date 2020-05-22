@@ -1,10 +1,6 @@
 package aut.utcluj.isp.ex4;
 
-
-import aut.utcluj.isp.ex1.Ticket;
-
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * @author stefan
@@ -63,7 +59,6 @@ public class AirplaneTicketController {
                 return ticket;
             }
         }
-
         throw new NoTicketAvailableException();
     }
 
