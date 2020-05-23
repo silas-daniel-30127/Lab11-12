@@ -1,8 +1,6 @@
 package aut.utcluj.isp.ex4;
 
-
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author stefan
@@ -12,7 +10,11 @@ public class AirplaneTicketController {
      * Default number of tickets when a new instance is created
      */
     public static final int DEFAULT_NUMBER_OF_TICKETS = 10;
-    private List<AirplaneTicket> tickets;
+    private List<AirplaneTicket> tickets = new ArrayList<>();
+
+    public AirplaneTicketController() {
+        generateTickets();
+    }
 
     /**
      * Generate default tickets
@@ -20,7 +22,7 @@ public class AirplaneTicketController {
     private void generateTickets() {
         for (int i = 0; i < DEFAULT_NUMBER_OF_TICKETS; i++) {
             String destination;
-            Double price;
+            double price;
 
             if (i < 3) {
                 destination = "Cluj-Napoca";
@@ -36,7 +38,7 @@ public class AirplaneTicketController {
             final AirplaneTicket airplaneTicket = new AirplaneTicket("ID-" + i, price, destination);
             airplaneTicket.setStatus(TicketStatus.NEW);
 
-            tickets.add(airplaneTicket);
+            this.tickets.add(airplaneTicket);
         }
     }
 
@@ -52,7 +54,12 @@ public class AirplaneTicketController {
      * @apiNote: this method should throw {@link NoTicketAvailableException} exception if ticket not found
      */
     public AirplaneTicket getTicketDetails(final String ticketId) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        for (AirplaneTicket ticket : tickets) {
+            if (ticket.getId().equals(ticketId)) {
+                return ticket;
+            }
+        }
+        throw new NoTicketAvailableException();
     }
 
     /**
@@ -67,7 +74,26 @@ public class AirplaneTicketController {
      * {@link NoTicketAvailableException} - if destination exists but no ticket with NEW status available
      */
     public void buyTicket(final String destination, final String customerId) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        boolean flag = true;
+        boolean ticketFlag = true;
+        for (AirplaneTicket ticket : tickets) {
+            if (ticket.getDestination().equals(destination)) {
+                flag = false;
+                if (ticket.getStatus().equals(TicketStatus.NEW)) {
+                    ticket.setCustomerId(customerId);
+                    ticket.setStatus(TicketStatus.ACTIVE);
+                    ticketFlag = false;
+                    break;
+                }
+            }
+        }
+
+        if (flag) {
+            throw new NoDestinationAvailableException();
+        }
+        if (ticketFlag) {
+            throw new NoTicketAvailableException();
+        }
     }
 
     /**
@@ -81,7 +107,20 @@ public class AirplaneTicketController {
      * {@link TicketNotAssignedException} - if ticket is not assigned to any user
      */
     public void cancelTicket(final String ticketId) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        boolean flag = false;
+        for (AirplaneTicket ticket : tickets) {
+            if (ticket.getId().equals(ticketId)) {
+                flag = true;
+                if (ticket.getStatus().equals(TicketStatus.ACTIVE)) {
+                    ticket.setStatus(TicketStatus.CANCELED);
+                } else {
+                    throw new TicketNotAssignedException();
+                }
+            }
+        }
+        if (!flag) {
+            throw new NoTicketAvailableException();
+        }
     }
 
     /**
@@ -95,7 +134,20 @@ public class AirplaneTicketController {
      * {@link TicketNotAssignedException} - if ticket is not assigned to any user
      */
     public void changeTicketCustomerId(final String ticketId, final String customerId) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        boolean flag = false;
+        for (AirplaneTicket ticket : tickets) {
+            if (ticket.getId().equals(ticketId)) {
+                flag = true;
+                if (ticket.getStatus() == TicketStatus.ACTIVE) {
+                    ticket.setCustomerId(customerId);
+                } else {
+                    throw new TicketNotAssignedException();
+                }
+            }
+        }
+        if (!flag) {
+            throw new NoTicketAvailableException();
+        }
     }
 
     /**
@@ -106,7 +158,13 @@ public class AirplaneTicketController {
      * @return
      */
     public List<AirplaneTicket> filterTicketsByStatus(final TicketStatus status) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        List<AirplaneTicket> airplaneTickets = new ArrayList<>();
+        for (AirplaneTicket ticket : tickets) {
+            if (ticket.getStatus() == status) {
+                airplaneTickets.add(ticket);
+            }
+        }
+        return airplaneTickets;
     }
 
     /**
@@ -116,6 +174,25 @@ public class AirplaneTicketController {
      * @apiNote: only tickets with available name should be returned
      */
     public Map<String, List<AirplaneTicket>> groupTicketsByCustomerId() {
-        throw new UnsupportedOperationException("Not supported yet.");
+        Map<String, List<AirplaneTicket>> groupedTickets = new HashMap<>();
+        Set<String> customersList = new HashSet<>();
+
+        for (AirplaneTicket ticket : tickets) {
+            if (ticket.getCustomerId() != null) {
+                customersList.add(ticket.getCustomerId());
+            }
+        }
+
+        for (String customerId : customersList) {
+            List<AirplaneTicket> customerTickets = new ArrayList<>();
+            for (AirplaneTicket ticket : tickets) {
+                if (ticket.getCustomerId() != null && ticket.getCustomerId().equals(customerId)) {
+                    customerTickets.add(ticket);
+                }
+            }
+            groupedTickets.put(customerId, customerTickets);
+        }
+        return groupedTickets;
     }
+
 }
