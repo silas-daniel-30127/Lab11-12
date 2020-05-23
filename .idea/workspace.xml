@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b9f054d-6e00-45dc-90d6-8e41b9f9783c" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/../lab-3-isp-maniu-pastiu-30127/src/test/java/isp/lab3/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/AirplaneTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/AirplaneTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/AirplaneTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/AirplaneTicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicketController.class" afterDir="false" />
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,66 +55,89 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-9-isp-silas-daniel-30127" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-6-isp-maniu-pastiu-30127" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.AirplaneTicketTest">
     <configuration name="AirplaneTicketController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.AirplaneTicketController" />
-      <module name="colocviu-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.Exercise4" />
-      <module name="colocviu-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+=======
+  <component name="RunManager" selected="JUnit.AirplaneTicketControllerTest">
     <configuration name="AirplaneTicketControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
       <module name="colocviu-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex4.*" />
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex4" />
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.AirplaneTicketControllerTest" />
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.AirplaneTicketControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirplaneTicketControllerTest.shouldThrowExceptionWhenCancelTicketAndTicketNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirplaneTicketControllerTest.shouldFilterTicketsWithPriceAndDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="colocviu-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex4.*" />
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex4" />
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.AirplaneTicketControllerTest" />
-      <option name="METHOD_NAME" value="shouldThrowExceptionWhenCancelTicketAndTicketNotFound" />
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.AirplaneTicketControllerTest" />
+      <option name="METHOD_NAME" value="shouldFilterTicketsWithPriceAndDestination" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AirplaneTicketControllerTest.shouldRemoveTicketById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="colocviu-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.AirplaneTicketControllerTest" />
+      <option name="METHOD_NAME" value="shouldRemoveTicketById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
+    <configuration name="AirplaneTicketControllerTest.shouldThrowExceptionWhenCancelTicketAndTicketNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="AirplaneTicketControllerTest.shouldReturnTotalNumberOfTickets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
+      <module name="colocviu-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex4" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.AirplaneTicketControllerTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenCancelTicketAndTicketNotFound" />
+=======
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.AirplaneTicketControllerTest" />
+      <option name="METHOD_NAME" value="shouldReturnTotalNumberOfTickets" />
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="AirplaneTicketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="colocviu-demo" />
       <extension name="coverage">
@@ -102,6 +149,20 @@
       <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex2" />
       <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex2.AirplaneTicketTest" />
       <option name="TEST_OBJECT" value="class" />
+=======
+    <configuration name="AirplaneTicketControllerTest.shouldUpdateTicketDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="colocviu-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.AirplaneTicketControllerTest" />
+      <option name="METHOD_NAME" value="shouldUpdateTicketDestination" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,9 +171,16 @@
       <list>
         <item itemvalue="JUnit.AirplaneTicketTest" />
         <item itemvalue="JUnit.AirplaneTicketControllerTest" />
+<<<<<<< HEAD
         <item itemvalue="Application.Exercise4" />
         <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldThrowExceptionWhenCancelTicketAndTicketNotFound" />
         <item itemvalue="Application.AirplaneTicketController" />
+=======
+        <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldFilterTicketsWithPriceAndDestination" />
+        <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldUpdateTicketDestination" />
+        <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldRemoveTicketById" />
+        <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldReturnTotalNumberOfTickets" />
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +201,8 @@
       <workItem from="1589706638491" duration="19000" />
       <workItem from="1589999975779" duration="5662000" />
       <workItem from="1590060709398" duration="29984000" />
+      <workItem from="1590145212155" duration="5498000" />
+      <workItem from="1590230976844" duration="8272000" />
     </task>
     <servers />
   </component>
@@ -140,6 +210,7 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="612" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1590179549544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -169,6 +240,40 @@
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590250342456" />
     <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590141608873" />
+=======
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590242389956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590242389956" />
+    <state x="765" y="213" width="390" height="589" key="#com.intellij.ide.util.MemberChooser" timestamp="1590242057585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="213" width="390" height="589" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590242057585" />
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590145231798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590145231798" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1590241728467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590241728467" />
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1590245145388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590245145388" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1590245145388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590245145388" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1590245145388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590245145388" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1590245145388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590245145388" />
+>>>>>>> 22746df796f315ece08203f93e14e95c11ad43a1
     <state width="1877" height="458" key="GridCell.Tab.1.bottom" timestamp="1590073043481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
