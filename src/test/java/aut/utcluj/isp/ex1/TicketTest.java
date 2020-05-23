@@ -25,5 +25,7 @@ public class TicketTest {
         final Ticket secondInstance = new Ticket("TK-1234", "John", 20D);
 
         assertEquals("Tickets should be equals", firstInstance, secondInstance);
+        //assertEquals("Tickets should be equals", firstInstance.toString(), secondInstance.toString());
+
     }
 }
