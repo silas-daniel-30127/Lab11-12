@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b9f054d-6e00-45dc-90d6-8e41b9f9783c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Screen.java" afterDir="false" />
+    <list default="true" id="8476ee65-a599-445a-9312-59e0a37b9394" name="Default Changelist" comment="Add a git ignore file&#10;Exercise 3">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../lab-3-isp-maniu-pastiu-30127/src/test/java/isp/lab3/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colocviu-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/colocviu-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex1/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex1/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex2/AirplaneTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex2/AirplaneTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex2/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex2/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Screen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aut/utcluj/isp/ex3/Screen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex1/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex1/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex3/AirplaneTicketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex4/AirplaneTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex4/AirplaneTicket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex4/AirplaneTicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/aut/utcluj/isp/ex4/AirplaneTicketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/aut/utcluj/isp/ex1/TicketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aut/utcluj/isp/ex1/TicketTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +62,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab-7-isp-maniu-pastiu-30127" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AirplaneTicketControllerTest">
+  <component name="RunManager" selected="JUnit.ColocviuTestSuite">
     <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.Exercise4" />
       <module name="colocviu-demo" />
@@ -59,6 +75,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirplaneTicketControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="colocviu-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aut.utcluj.isp.ex4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex4" />
+      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex4.AirplaneTicketControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,22 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirplaneTicketControllerTest.shouldUpdateTicketDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="colocviu-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aut.utcluj.isp.ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="aut.utcluj.isp.ex3" />
-      <option name="MAIN_CLASS_NAME" value="aut.utcluj.isp.ex3.AirplaneTicketControllerTest" />
-      <option name="METHOD_NAME" value="shouldUpdateTicketDestination" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ColocviuTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="colocviu-demo" />
       <extension name="coverage">
@@ -127,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColocviuTestSuite" />
+        <item itemvalue="JUnit.AirplaneTicketControllerTest (1)" />
         <item itemvalue="JUnit.AirplaneTicketControllerTest" />
         <item itemvalue="Application.Exercise4" />
-        <item itemvalue="JUnit.ColocviuTestSuite" />
         <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldFilterTicketsWithPriceAndDestination" />
-        <item itemvalue="JUnit.AirplaneTicketControllerTest.shouldUpdateTicketDestination" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +155,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b9f054d-6e00-45dc-90d6-8e41b9f9783c" name="Default Changelist" comment="" />
+      <changelist id="8476ee65-a599-445a-9312-59e0a37b9394" name="Default Changelist" comment="" />
       <created>1589457590299</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -157,6 +172,7 @@
       <workItem from="1590249135903" duration="1981000" />
       <workItem from="1590269322139" duration="345000" />
       <workItem from="1590316945276" duration="5213000" />
+      <workItem from="1590338449847" duration="345000" />
     </task>
     <servers />
   </component>
@@ -176,26 +192,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590145231798" />
+    <state x="524" y="74" key="CommitChangelistDialog2" timestamp="1590338788996">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="524" y="74" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590338788996" />
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1590338783995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590338783995" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1590325179786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590325179786" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1590334447698">
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1590338958619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590334447698" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1590334447698">
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590338958619" />
+    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1590338958618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590334447698" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1590334447698">
+    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590338958618" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1590338958618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590334447698" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1590334447698">
+    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590338958618" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1590338958618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590334447698" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590338958618" />
     <state width="1877" height="458" key="GridCell.Tab.1.bottom" timestamp="1590073043481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,6 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="458" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590073043481" />
+    <state x="612" y="114" key="SettingsEditor" timestamp="1590338412247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="612" y="114" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590338412247" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589706638864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,9 +252,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590058887381" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590071132218">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590338014004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590071132218" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590338014004" />
   </component>
 </project>
