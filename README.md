@@ -1,4 +1,4 @@
-# Lab11-12
+# Team project
 ## Exercise 4 - Airplane Ticket Controller
 UML Diagram
 
